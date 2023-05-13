@@ -9,7 +9,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://vpcreatz:VPCREATION@cluster0.6lncjwt.mongodb.net/?retryWrites=true&w=majority")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "BQDFzD7GiX1djrIzxK5OQ-llnnNrcI-JAIMF1pY0zsLsU0PjzrxF4_RwonH6FK4WUosQoMdL2YYDnXeBIwRxYkWwaPv8VJ9f5qzAAFndSZ7UHafGe2Xt7LJa9nlKqWoZDUmbUTaFPS9uXSqjooBISUAW7ezTxrsX8f6VTx5rVIvhOFZ_dnqkMWcYAP7XZp6262EBSG67v5leUgmvXKU8WCHfbESqM487yE_cac-qz3ozTRTDfLiEa1dkSv03-kPXfwsEgUIlsh8zEa_lEs0eRjuH5UOWJZJ0mBOUt21CkSYDMI6CoGmtIEIUobngqmoyv55kaZdEbRVWpoMSbXXZ9qhTAAAAAVs9ne4A")   
+    SESSION = os.environ.get("SESSION", "BQAsphg_zN76KWlimM16KSKJM6cpnE-2Gl5doLiLOPVqm8dLgmLtKuQDfzTqWW5lmNoZT9LiHVmJ2XRSCICkgC427_aE8kT2dSLGEmCrn_y8rew4LLxsfnklJiTG2snOttgfC0iH6zFlokbxL8sfwy4XQotmMzaCuyGnAmMoF7ZlM5R3SwLwZsrT7d7zxK-AxhDO9ue93vI3Fo4_xyShvEvyAwnE0nqgA3p-Gkr-NiQE4R6pN87u0EXHgH5XVWwQmtDV9mFxe6tKPq-uy0hgUCjfAvYD2h7yDhytgm3vDsETQST8rFRfA9ybH0XkfmE_pU6JGnBuVzXZLZVmXlk1TyeNAAAAAVs9ne4A")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001290647385"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "autofilterimdbfiles_bot")
 
